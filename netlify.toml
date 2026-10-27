@@ -2,3 +2,10 @@
 [build]
   publish = "site"
   command = ""
+
+# Send visitors on the default Netlify subdomain to the custom domain.
+[[redirects]]
+  from = "https://heath-design-studio.netlify.app/*"
+  to = "https://heathdesignstudio.com/:splat"
+  status = 301
+  force = true
