@@ -9,8 +9,6 @@
 
   var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   var CONTACT_EMAIL = "heathcaleb00@gmail.com";
-  var CONTACT_TEL = "+12149942239";
-  var CONTACT_TEL_DISPLAY = "(214) 994-2239";
 
   /* ---------- Mobile navigation ---------- */
   var toggle = document.querySelector(".nav-toggle");
@@ -284,8 +282,7 @@
           setBusy(false);
           showSummary(
             "<strong>Your request couldn't be sent.</strong> Please try again in a moment, or email " +
-            '<a class="link" href="mailto:' + CONTACT_EMAIL + '">' + CONTACT_EMAIL + "</a> or call " +
-            '<a class="link" href="tel:' + CONTACT_TEL + '">' + CONTACT_TEL_DISPLAY + "</a>. Nothing you entered has been lost."
+            '<a class="link" href="mailto:' + CONTACT_EMAIL + '">' + CONTACT_EMAIL + "</a>. Nothing you entered has been lost."
           );
         });
     });

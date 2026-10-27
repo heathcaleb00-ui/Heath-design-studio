@@ -50,6 +50,6 @@ Replace `https://heath-design-studio.netlify.app` with the new domain in:
 
 - Text lives directly in the HTML files, one commented block per section.
 - Colors, spacing, and type scale are the variables at the top of `css/styles.css`.
-- Email and phone appear in: header call button, quote section, FAQ, footer, the form's error message
+- Email appears in: quote section, FAQ, footer, the form's error message
   (`js/main.js`, top of file), JSON-LD in `<head>`, and `privacy.html`.
 - Social links: add them in the footer "Contact" list (marked with a comment) once real profile URLs exist.
