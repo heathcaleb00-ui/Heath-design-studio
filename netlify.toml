@@ -1,0 +1,4 @@
+# Netlify reads this on every deploy from GitHub.
+[build]
+  publish = "site"
+  command = ""
