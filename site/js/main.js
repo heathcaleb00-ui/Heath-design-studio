@@ -35,7 +35,7 @@
         toggle.focus();
       }
     });
-    window.matchMedia("(min-width: 881px)").addEventListener("change", function (mq) {
+    window.matchMedia("(min-width: 961px)").addEventListener("change", function (mq) {
       if (mq.matches) setNav(false);
     });
   }
@@ -50,7 +50,7 @@
 
   /* ---------- Current section in nav ---------- */
   var navLinks = Array.prototype.slice.call(document.querySelectorAll(".nav__link"));
-  var sectionMap = { top: "#top", services: "#services", about: "#about", quote: "#quote" };
+  var sectionMap = { services: "#services", about: "#about", pricing: "#pricing", faq: "#faq", quote: "#quote" };
 
   if ("IntersectionObserver" in window && navLinks.length) {
     var sectionObserver = new IntersectionObserver(
