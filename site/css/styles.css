@@ -973,6 +973,7 @@ kbd {
   background: radial-gradient(55% 60% at 0% 100%, rgba(113, 137, 172, 0.14), transparent 70%);
 }
 .quote__grid { display: grid; gap: clamp(2.5rem, 2rem + 3vw, 5rem); }
+.quote__grid > * { min-width: 0; }
 @media (min-width: 980px) {
   .quote__grid { grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); align-items: start; }
 }
