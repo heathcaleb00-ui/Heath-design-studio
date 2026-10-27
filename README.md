@@ -1,7 +1,7 @@
 # Heath Design Studio — website
 
 Static site: HTML, CSS, and a small JavaScript file. No build step, no dependencies, no third-party requests.
-Live: https://heath-design-studio.netlify.app (Netlify project `heath-design-studio`).
+Live: https://heathdesignstudio.com (Netlify project `heath-design-studio`).
 
 ## Folder layout
 
@@ -41,10 +41,10 @@ No build command. Publish directory is the folder root.
 
 Production is public. Team login protection applies only to non-production deploys (previews).
 
-## If a custom domain is connected later
+## Custom domain
 
-Replace `https://heath-design-studio.netlify.app` with the new domain in:
-`index.html` (canonical, og:url, og:image, JSON-LD), `sitemap.xml`, and `robots.txt`.
+The site uses `https://heathdesignstudio.com` in `index.html` (canonical, og:url, og:image, JSON-LD),
+`sitemap.xml`, and `robots.txt`. The default Netlify subdomain 301-redirects to it (see `netlify.toml`).
 
 ## Editing content
 
